@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="img-box">
+                <img src="images/user.png" class="img-set" id="img-set">
+                <input type="file" name="" id="file" style="display: none;">
+              <label for="file"><i class="fa-solid fa-camera icon-set"></i></label>
+            </div>
+            <div id="inputs" class="inputs">
+                <div class="divClass">
+                    <input class="pro-inputs" type="text" placeholder="Your name will show here">
+                </div>
+                <div class="inputs">
+                    <div class="divClass mt-3">
+                        <input class="pro-inputs" type="text" placeholder="Your email will show here">
+                    </div>
+                </div>
+                <div class="updateBtn" ><button class="update-Btn" id="update-Btn">Update profile</button></div>
+                <button class="update-Btn" id="deleteFile">Delete File</button>
+            </div>
+            <div class="logOut-btn">
+                <button class="btn logOut" id="logout">Log out</button>
+                <!-- <button class="btn" id="logout">Chat</button> -->
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="profile.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e125e2b600.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

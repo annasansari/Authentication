@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+.card-set {
+    margin: 0 auto;
+    top: 120px;
+    height: 400px !important;
+}
+
+.card-set-login {
+    width: 300px;
+    margin: 0 auto;
+    top: 120px;
+}
+
+.card-body {
+    border: 1px solid #4e8cc3;
+}
+
+.input-set {
+    padding: 8px;
+    width: 90%;
+    margin: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #4e8cc3;
+}
+
+.input-set:focus {
+    border: 1px solid #4e8cc3;
+
+}
+
+.Sign-up-btn {
+    width: 90%;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 8px;
+    border: none;
+    background-color: #4e8cc3;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.anchor {
+    padding-left: 10px;
+}
+
+.set-anchor {
+    margin: 15px 5px;
+}
+
+.card-title {
+    font-size: 2rem !important;
+    margin-left: 65px;
+    color: #4e8cc3 !important;
+}
+
+.box {
+    width: 300px;
+    height: 80vh;
+    background-color: bisque;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+}
+
+.img-box {
+    width: 100%;
+    height: 150px;
+    /* background-color: blueviolet; */
+    display: flex;
+    /* position: relative; */
+    border: 3px solid red;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-set {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.icon-set {
+    position: absolute;
+    left: 190px;
+    top: 110px;
+    margin-bottom: auto;
+    font-size: 1.3rem;
+    padding: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.pro-inputs {
+    width: 80%;
+    height: 35px;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.inputs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 10%; */
+}
+
+.update-Btn {
+    border: none;
+    color: #fff;
+    background-color: #4e8cc3;
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 130%;
+    font-weight: 600;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.logOut {
+    background-color: #4e8cc3 !important;
+    position: absolute
+}
+
+.logOut-btn {
+    width: 100%;
+    height: 120px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    position: relative;
+    padding: 10px;
+}
